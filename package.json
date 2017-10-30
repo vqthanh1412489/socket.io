@@ -1,0 +1,19 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vqthanh1412489/socket.io.git",
+  "author": "vqthanh1412489 <vqthanh1412489@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "reload": "^2.2.2"
+  },
+  "scripts": {
+    "start": "nodemon index.js -e ejs,js"
+  }
+}
